@@ -5,14 +5,16 @@ CREATE TABlE products(
  id BIGINT,
  name VARCHAR(255),
  description VARCHAR(255),
- price FLOAT
+ price FLOAT,
+ PRIMARY KEY(`id`)
 );
 
 CREATE TABLE students(
 	id BIGINT,
 	name VARCHAR(255),
 	email VARCHAR(50),
-	dob DATETIME
+	dob DATETIME,
+ 	PRIMARY KEY(`id`)
 	
 );
 
